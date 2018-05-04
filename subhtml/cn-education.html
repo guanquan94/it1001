@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="">
+	<title>学历</title>
+	<link rel="icon" href="../images/orbital.ico">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/jquery.min.js"></script>
+	<script type="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<header>
+		<nav>
+			<div class="menu-icon">
+				<i class="fa fa-bars fa-2x"></i>
+			</div>
+			<div class="logo">
+				<img src="../images/orbital.ico" height="40" width="40">
+			</div>
+				<div class="menu">
+			<ul>
+			<li><a href="cn-biography.html">关于</a></li>
+			<li><a href="cn-education.html">学历</a></li>
+			<li><a href="cn-internship.html">实习经验</a></li>
+			<li><a href="cn-blog.html">评论 - 英语</a></li>
+			<li><a href="cn-contact.html">联络</a></li>
+			<li><a href="biography.html">EN</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	</div>
+
+	<div class="internship-introduction">
+		<b>学历</b>
+		<div class="internship-linebreak"></div>
+		<div class="internship-pagedesc">我的教育背景</div>
+	</div>
+	<div class="internships-grid"> 
+	     <div class="grid-item-img">
+	        <img src="../images/nusbusinessschool.png">
+	    </div>
+	    <div class="grid-item-text">
+			<b>新加坡国立大学商学院</b>
+			<br><br>
+			<i>
+			工商管理学士学位 (金融系)
+			<br> 2015 年 8 月 - 至今
+			</i>
+			<br>
+			<p>
+				相关课程:<br>
+				企业融资, 商业分析
+			</p>
+	    </div>
+	    <div class="grid-item-img">
+	        <img src="../images/sse.png">
+	    </div>
+	    <div class="grid-item-text">
+	    	<b>斯德哥尔摩经济学院</b>
+	    	<br><br>
+	    	<i>
+	    	学生交流
+	    	<br>
+	    	2017 年 8 月- 2017 年 12 月
+	    	</i>
+	    	<br>
+			<p>
+				相关课程:<br>
+				金融衍生品管理
+			</p>
+	    </div>
+	    <div class="grid-item-img">
+	        <img src="../images/ijc.png">
+	    </div>
+	    <div class="grid-item-text">
+	    	<b>星烁初级学院</b>
+	    	<br><br>
+	    	<i>
+	    	"A" 水准
+	    	<br>
+	    	2011 年 1 月 - 2012 年 12 月
+	    	</i>
+	    	<br>
+			<p>
+				得到2013年心烁初级学院最佳改进奖<br><br>
+				入选加入香港交流活动: <br>
+				香港城市大学<br>
+				香港交易及结算所有限公司<br>
+				香港金融管理局
+			</p>
+	    </div>
+	</div>
+
+
+  <script type="text/javascript">
+  // Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+		$("nav ul").toggleClass("showing");
+	});
+	});
+  // Scrolling Effect
+	$(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+		}
+	})
+  </script>
+</body>
+
+
+</html>

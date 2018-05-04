@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="">
+	<title>Internships</title>
+	<link rel="icon" href="../images/orbital.ico">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/jquery.min.js"></script>
+	<script type="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+		<nav>
+
+		<div class="menu-icon">
+			<i class="fa fa-bars fa-2x"></i>
+		</div>
+
+		<div class="logo">
+			<img src="../images/orbital.ico" height="40" width="40">
+		</div>
+
+		<div class="menu">
+		<ul>
+			<li><a href="biography.html">About</a></li>
+			<li><a href="education.html">Education</a></li>
+			<li><a href="internship.html">Internship</a></li>
+			<li><a href="blog.html">Review</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="cn-biography.html">简体</a></li>
+		</ul>
+		</div>
+
+		</nav>
+		</header>
+	</div>
+
+	<div class="internship-introduction">
+		<b>Experiences</b>
+		<div class="internship-linebreak"></div>
+		<div class="internship-pagedesc">A List of Work Experience in Various Departments</div>
+	</div>
+
+	<div class="internships-grid"> 
+
+		<div class="grid-item-img">
+			<img src="../images/hsbc.png">
+		</div>
+
+		<div class="grid-item-text">
+			<b>HSBC Singapore</b>
+			<br><br>
+			<i>
+			Traded Credit Risk Management (Intern)
+			<br>May 2017 - Aug 2017
+			</i>
+			<p>
+			Wholesale Credit and Market Risk (WMR)<br><br>
+			Counterparty Risk<br>
+			Treasury Products, Derivatives<br>
+			Product Control, Counterparty Limits Exposure<br>
+			Settlements, ISDA / CSA, Credit Review, and Earmarking
+			</p>
+		</div>
+
+		<div class="grid-item-img">
+			<img src="../images/Dnb.png">
+		</div>
+
+		<div class="grid-item-text">
+			<b>DNB Asia Ltd</b>
+			<br><br>
+			<i>
+			Compliance (Intern)
+			<br>
+			May 2016 - Aug 2016
+			</i>
+			<p>
+				Department of Risk Management<br><br>
+				KYC, AML, Due Dilligence, and Sanctions
+			</p>
+		</div>
+
+		<div class="grid-item-img">
+			<img src="../images/mizuho.png">
+		</div>
+		
+		<div class="grid-item-text">
+			<b>Mizuho Bank: Singapore Branch</b>
+			<br><br>
+			<i>
+			Trade Finance (Assistant)
+			<br>
+			Mar 2015 - Jun 2015
+			</i>
+			<p>
+				Department of Trade Finance<br><br>
+				L/C, Import/Export Documents, Banker's Guarantee
+			</p>
+		</div>
+	</div>
+
+
+
+
+
+  <script type="text/javascript">
+  // Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+		$("nav ul").toggleClass("showing");
+	});
+	});
+  // Scrolling Effect
+	$(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+		}
+	})
+  </script>
+</body>
+
+</html>

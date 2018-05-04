@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="">
+	<title>Education</title>
+	<link rel="icon" href="../images/orbital.ico">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/jquery.min.js"></script>
+	<script type="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+		<nav>
+			<div class="menu-icon">
+				<i class="fa fa-bars fa-2x"></i>
+			</div>
+			<div class="logo">
+				<img src="../images/orbital.ico" height="40" width="40">
+			</div>
+				<div class="menu">
+			<ul>
+				<li><a href="biography.html">About</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="internship.html">Internship</a></li>
+				<li><a href="blog.html">Review</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cn-biography.html">简体</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	</div>
+
+	<div class="internship-introduction">
+		<b>Education</b>
+		<div class="internship-linebreak"></div>
+		<div class="internship-pagedesc">A List of my Educational Background</div>
+	</div>
+
+	<div class="internships-grid"> 
+	     <div class="grid-item-img">
+	        <img src="../images/nusbusinessschool.png">
+	    </div>
+	    <div class="grid-item-text">
+			<b>NUS Business School</b>
+			<br><br>
+			<i>
+			Bachelor of Business Administration (Finance Specialization)
+			<br>Aug 2015 - Present
+			</i>
+			<p>
+				Relevant Coursework:<br>
+				Corporate Finance, Business Analytics: Data and Decision
+			</p>
+	    </div>
+	    <div class="grid-item-img">
+	        <img src="../images/sse.png">
+	    </div>
+	    <div class="grid-item-text">
+	    	<b>Stockholm School of Economics</b>
+	    	<br><br>
+	    	<i>
+	    	Student Exchange Program
+	    	<br>
+	    	Aug 2017 - Dec 2017
+	    	</i>
+	    	<br>
+			<p>
+			Relevant Coursework:
+			<br>
+			Derivatives in Investment Management
+			</p>
+	    </div>
+	    <div class="grid-item-img">
+	        <img src="../images/ijc.png">
+	    </div>
+	    <div class="grid-item-text">
+	    	<b>Innova Junior College</b>
+	    	<br><br>
+	    	<i>
+	    	GCE "A" Levels 
+	    	<br>
+	    	Jan 2011 - Dec 2012
+	    	</i>
+	    	<br>
+			<p>
+				Awarded the "IJC Best Improved Award" in 2013 <br><br>
+				Selected for Hong Kong Economics Immersion Trip to: <br>
+				City University<br>
+				Hong Kong Exchange (HKEX)<br>
+				Hong Kong Monetary Authority (HKMA)
+			</p>
+	    </div>
+	</div>
+
+</body>
+
+	
+  <script type="text/javascript">
+  // Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+		$("nav ul").toggleClass("showing");
+	});
+	});
+  // Scrolling Effect
+	$(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+		}
+	})
+  </script>
+</html>

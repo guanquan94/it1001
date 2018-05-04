@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="">
+	<title>Biography</title>
+	<link rel="icon" href="../images/orbital.ico">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/jquery.min.js"></script>
+	<script type="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+		<nav>
+			<div class="menu-icon">
+				<i class="fa fa-bars fa-2x"></i>
+			</div>
+
+			<div class="logo">
+				<img src="../images/orbital.ico" height="40" width="40">
+			</div>
+
+			<div class="menu">
+				<ul>
+				<li><a href="biography.html">About</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="internship.html">Internship</a></li>
+				<li><a href="blog.html">Review</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cn-biography.html">简体</a></li>
+				</ul>
+			</div>
+		</nav>
+		</header>
+	</div>
+
+	<div class="grids-self">
+		<div class="grids-self-img">
+			<img src="../images/profile2.jpg">
+		</div>
+
+		<div class="grids-self-text">
+			<b>About</b><br><br>
+			<div class="about-linebreak"></div>
+			<br>
+			Guan Quan<br>
+			24 Years Old<br>
+			Singapore<br><br>
+
+			Interest in Finance and Programming<br>
+			Native speaker of English and Mandarin.<br><br><br>
+
+			<b>Education</b><br>
+			Bachelor of Business Administration<br>
+			NUS Business School<br><br>
+
+			<b>Skillsets</b>
+				<li>Excel VBA</li>
+				<li>R Programming <i>(Fundamental)</i></li>
+				<li>SQL <i>(Fundamental)</i></li>
+				<li>Django <i>(Fundamental)</i></li>
+				<li>Python <i>(Fundamental)</i></li>
+			
+
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	// Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+		$("nav ul").toggleClass("showing");
+	});
+	});
+	// Scrolling Effect
+	$(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+
+	else {
+		$('nav').removeClass('black');
+		}
+	})
+	</script>
+
+</body>
+
+<footer class="footer1">
+	Copyright © 2018 Guan Quan. All rights reserved.
+</footer>
+
+</html>

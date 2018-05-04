@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="">
+	<title>Internships</title>
+	<link rel="icon" href="../images/orbital.ico">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="../js/jquery.min.js"></script>
+	<script type="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+		<nav>
+
+		<div class="menu-icon">
+			<i class="fa fa-bars fa-2x"></i>
+		</div>
+
+		<div class="logo">
+			<img src="../images/orbital.ico" height="40" width="40">
+		</div>
+
+		<div class="menu">
+		<ul>
+			<li><a href="cn-biography.html">关于</a></li>
+			<li><a href="cn-education.html">学历</a></li>
+			<li><a href="cn-internship.html">实习经验</a></li>
+			<li><a href="cn-blog.html">评论 - 英语</a></li>
+			<li><a href="cn-contact.html">联络</a></li>
+			<li><a href="biography.html">EN</a></li>
+		</ul>
+		</div>
+
+		</nav>
+		</header>
+	</div>
+
+	<div class="internship-introduction">
+		<b>工作经验</b>
+		<div class="internship-linebreak"></div>
+		<div class="internship-pagedesc">我在不同部门的经验</div>
+	</div>
+
+ <div class="internships-grid"> 
+     <div class="grid-item-img">
+        <img src="../images/hsbc.png">
+    </div>
+    <div class="grid-item-text">
+		<b>汇丰银行</b>
+		<br><br>
+		<i>
+		风险管理 (实习生)
+		<br>
+		2017 年 5 月 - 2017 年 8 月
+		</i>
+		<p>
+		交易对手风险<br>
+		</p>
+    </div>
+    <div class="grid-item-img">
+        <img src="../images/Dnb.png">
+    </div>
+    <div class="grid-item-text">
+    	<b>DNB</b>
+    	<br><br>
+    	<i>
+    	合规 (实习生)
+    	<br>
+    	2016 年 5 月 - 2016 年 8 月
+    	</i>
+		<p>
+			合规部门<br><br>
+		</p>
+    </div>
+    <div class="grid-item-img">
+        <img src="../images/mizuho.png">
+    </div>
+    <div class="grid-item-text">
+    	<b>瑞穗银行</b>
+    	<br><br>
+    	<i>
+    	贸易金融 (占时工)
+    	<br>
+    	2015 年 3 月 - 2015 年 6 月
+    	</i>
+		<p>
+			贸易金融<br><br>
+		</p>
+    </div>
+</div>
+
+
+
+
+
+  <script type="text/javascript">
+  // Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+		$("nav ul").toggleClass("showing");
+	});
+	});
+  // Scrolling Effect
+	$(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+		}
+	})
+  </script>
+</body>
+
+
+</html>
